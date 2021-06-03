@@ -2,7 +2,7 @@
 
 static int fact(int number)
 {
-  return number <= 1 ? 1 : fact(number - 1);
+  return number <= 1 ? 1 : fact(number - 1) * number;
 }
 
 TEST_CASE("fact(0) == 1)")

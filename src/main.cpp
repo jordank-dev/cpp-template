@@ -2,5 +2,5 @@
 
 int main()
 {
-  fmt::print("{}\n", "Hello World!");
+  fmt::print("Hello World!\n");
 }
