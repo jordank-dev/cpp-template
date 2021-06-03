@@ -1,6 +1,6 @@
-#include <iostream>
+#include <fmt/format.h>
 
 int main()
 {
-  std::cerr << "Hello World!\n";
+  fmt::print("{}\n", "Hello World!");
 }
